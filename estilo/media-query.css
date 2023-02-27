@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */
+
+/* Typical Device Breakpoints
+-----------------------------
+Pequenas telas: até 600px
+Celular: 600px até 768px
+Tablet: 768 até 992px
+Desktop: 992 até 1200px
+Grandes telas: acima de 1200px
+ */
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+/* Paleta de cores */
+
+:root{
+    --Color1: #8aca9f;
+    --Color2: #99b6c7;
+    --color3: #33B4FF;
+    --color4: #1695DE;
+}
+
+@media only screen and (min-width: 768px){
+    body{
+        background: white url(../imagens/consultorio.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    span#burguer{
+        display: none;
+    }
+    header{
+        background-color: rgba(255, 255, 255, 0.87);
+    }
+    header > div#logo{
+        padding: 10px;
+    }
+    menu{
+        display: block;
+        margin-top: -80px;
+        float: right;
+        padding:  20px;
+    }
+
+    menu > ul > li{
+        display: inline-block;
+    }
+    menu > ul > li > a{
+        font-size: 0.8em;
+        color: var(--Color2);
+        background-color: transparent;
+    }
+    menu > ul > li > a:hover{
+        color: white;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+    }
+    article{
+        width: 720px;
+    }
+    article > h2{
+        font-size: 3em;
+        text-align: center;
+    }
+    article > p{
+        font-size: 1.2em;
+        padding: 10px;
+    }
+    section{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .servico{
+        height: 180px;
+        width: 300px;
+        margin: 10px;
+    }
+    .equipe{
+        display: flex;
+    }
+    .equipe > h2{
+        display: block;
+        text-align: center;
+        font-size: 2em;
+        color: var(--color4);
+        width: 90%;
+        margin: 20px auto 0;
+    }
+    .equipe > .card{
+        max-width: 300px;
+        margin: 20px;
+    }
+    .equipe > .card > p{
+        display: flex;
+        align-items: center;
+    }
+    .mapa{
+        display: flex;
+    }
+    .mapa iframe{
+        height: 300px;
+        width: 42%;
+    }
+    .mapa aside{
+        width: 42%;
+        color: white;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px){
+    menu > ul > li > a{
+        font-size: 1em;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
+
+}
