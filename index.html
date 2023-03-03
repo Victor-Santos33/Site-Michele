@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="estilo/media-query.css">
     <script type="text/javascript" src="arquivo.js" defer>
     </script>
+    <script type="text/javascript" src="leiamais.js"></script>
 </head>
 <body onresize="mudouTamanho()">
     <header>
@@ -27,12 +28,31 @@
     </header>
     <main>
         <article>
-            <h2>Michele Carvalho</h2>
-            <p>Com mais de 18 anos atuando como Técnica Saúde Bucal e mais 07 anos formada, atuando em Odontologia Interdisciplinar, nosso objetivo é <strong>cuidar</strong> de você, devolvendo-lhe saúde, bem-estar e autoestima, para que você possa se sentir cada vez melhor!</p>
+            <h2>Clínica Michele Carvalho</h2>
+            <p>A Clínica Michele Carvalho, está no mercado há 7 anos, somos uma clínica multidisciplinar, com profissionais altamente capacitados atuando sempre com destreza, cuidado e paixão em cada especialidade.</p>
         </article>
     </main>
-    <section>
-        <h2>Serviços</h2>
+    <section class="sobre">
+        <h2>Sobre</h2>
+        <p>
+            A clinica Michelecarvalho, tem o orgulho de unir tecnologia, conforto e uma equipe multidisciplinar altamente qualificada, preocupados em oferecer uma melhora na qualidade de vida de nossos pacientes, avaliando-os como um todo, entendendo seus desejos, sonhos e expectativas, e não apenas tratando dos problemas bucais.
+        </p>
+        <span id="mais">
+            <p>
+                Conta com infraestrutura moderna e aconchegante, equipada com ferramentas de última geração, e sua proposta reflete oferecer acolhimento e atendimento com respeito, de forma personalizada para cada paciente que entra no consultório.
+            </p>
+            <p>
+                Valorizamos momentos felizes!
+                Na clinica Michele Carvalho, é fazer você sorrir em todas as etapas da sua vida, isto é, estamos presentes não só no sorriso, como também na história de toda família!
+            </p>
+            <p>
+                Somos comprometidos com a qualidade no atendimento aos nossos pacientes, assim sendo, trazemos para você o que a odontologia tem de melhor e mais moderno em matéria de tratamentos e tecnologia.
+            </p>
+        </span>
+        <button onclick="leiaMais()" id="btnLeiaMais">Leia Mais</button>
+    </section>
+    <section class="tratamento">
+        <h2>Tratamentos</h2>
         <div class="servico">
             <h2>Prótese Dentária</h2>
             <p>Conhecida popularmente como dentadura, é uma das melhores alternativas para restabelecer o seu sorriso e a sua auto-estima.</p>

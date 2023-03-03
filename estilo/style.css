@@ -18,7 +18,6 @@
     --color4: #1695DE;
 }
 
-
 body{
     height: 700px;
     background: white url(../imagens/consultorio.jpg) no-repeat;
@@ -90,15 +89,55 @@ article{
 }
 
 article > h2{
-    color: var(--color4);
+    text-align: center;
+    font-size: 2em;
+    color: var(--color3);
     padding-bottom: 10px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.712);
 }
 
 article > p{
     text-align: justify;
-    margin-bottom: 10px;
     text-indent: 20px;
+}
+
+.sobre{
+    background-color: white;
+}
+.sobre > h2{
+    color: var(--color3);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.712);
+}
+.sobre > p, #mais > p{
+    width: 90vw;
+    text-align: justify;
+    margin: auto;
+    padding: 20px;
+    text-indent: 20px;
+}
+
+#mais{
+    display: none;
+}
+#mais > p{
+    color: white;
+    background-color: var(--Color2);
+}
+#btnLeiaMais{
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    color: white;
+    background-color: var(--color3);
+    border: solid 1px black;
+}
+
+.tratamento{
+    background-color: var(--color3);
+}
+.tratamento > h2{
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.712);
 }
 
 section{
@@ -121,17 +160,19 @@ section > h2{
     width: 90vw;
     margin: auto;
     background-color: white;
-    margin-top: 40px;
+    margin: 40px auto;
     text-align: justify;
     padding: 10px;
     border-radius: 12px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    text-indent: 20px;
 }
 
 .servico > h2{
     margin-bottom: 10px;
     text-align: center;
-    color: var(--Color1);
+    color: var(--color3);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.726);
 }
 .card{
     display: block;

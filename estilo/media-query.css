@@ -67,6 +67,21 @@ Grandes telas: acima de 1200px
         font-size: 1.2em;
         padding: 10px;
     }
+    .sobre{
+        display: block;
+    }
+    .sobre >p{
+        max-width: 800px;
+        margin: auto;
+    }
+    #mais > p{
+        width: 800px;
+        display: block;
+    }
+    #btnLeiaMais{
+        display: flex;
+        flex-wrap: wrap;
+    }
     section{
         display: flex;
         flex-flow: row wrap;
