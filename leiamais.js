@@ -1,5 +1,5 @@
 function leiaMais(){
-    let maisTexto = document.getElementById("mais");
+    let maisTexto = document.getElementById("leiamais");
     let btnLeiaMais = document.getElementById("btnLeiaMais");
 
     if(btnLeiaMais.innerHTML=="Leia Mais"){

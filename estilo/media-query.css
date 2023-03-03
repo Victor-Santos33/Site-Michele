@@ -88,12 +88,20 @@ Grandes telas: acima de 1200px
         justify-content: center;
     }
     .servico{
-        height: 180px;
+        height: 210px;
         width: 300px;
         margin: 10px;
     }
+    .servico > hr{
+        align-items: center;
+    }
+    .servico > button{
+        align-items: flex-end;
+    }
     .equipe{
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .equipe > h2{
         display: block;

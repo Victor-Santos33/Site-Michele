@@ -108,7 +108,7 @@ article > p{
     color: var(--color3);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.712);
 }
-.sobre > p, #mais > p{
+.sobre > p, #leiamais > p{
     width: 90vw;
     text-align: justify;
     margin: auto;
@@ -116,26 +116,37 @@ article > p{
     text-indent: 20px;
 }
 
-#mais{
+#leiamais{
     display: none;
 }
-#mais > p{
+#leiamais > p{
     color: white;
     background-color: var(--Color2);
 }
-#btnLeiaMais{
+#btnLeiaMais, #btnSaibaMais{
+    cursor: pointer;
     display: block;
     margin: 20px auto;
     padding: 5px;
     color: white;
     background-color: var(--color3);
     border: solid 1px black;
+    border-radius: 12px;
 }
-
+hr{
+    margin: 10px;
+}
+#btnSaibaMais{
+    margin: 10px auto;
+}
+.servico > #btnSaibaMais{
+    display: block;
+}
 .tratamento{
     background-color: var(--color3);
 }
 .tratamento > h2{
+    text-align: center;
     color: white;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.712);
 }
@@ -174,6 +185,9 @@ section > h2{
     color: var(--color3);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.726);
 }
+
+/* Aqui está os Cards com nome, foto e descrição da equipe*/
+
 .card{
     display: block;
     width: 80vw;
@@ -198,6 +212,8 @@ section > h2{
     text-indent: 1em;
     padding: 10px;
 }
+
+/* Aqui está os dados de contato e localização da empresa*/
 
 .mapa{
     background-color: var(--Color2);
