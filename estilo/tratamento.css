@@ -105,60 +105,18 @@ article > p{
     background-color: white;
 }
 .sobre > h2{
+    font-size: 2em;
     color: var(--color3);
+    text-align: center;
+    padding-top: 10px;
 }
-.sobre > p, #leiamais > p{
+.sobre > p{
     width: 90vw;
     text-align: justify;
     margin: auto;
     padding: 20px;
     text-indent: 20px;
 }
-
-#leiamais{
-    display: none;
-}
-#leiamais > p{
-    color: white;
-    background-color: var(--Color2);
-}
-#btnLeiaMais, #btnSaibaMais{
-    cursor: pointer;
-    display: block;
-    margin: 20px auto;
-    padding: 5px;
-    color: white;
-    background-color: var(--color3);
-    border: solid 1px black;
-    border-radius: 12px;
-}
-#btnLeiaMais:hover, #btnSaibaMais:hover{
-    /* background-color: var(--Color2); */
-    border: 0px;
-    padding: 6px;
-}    
-hr{
-    margin: 10px;
-}
-#btnSaibaMais{
-    margin: 10px auto;
-}
-.servico > #btnSaibaMais{
-    display: block;
-}
-.servico > #btnSaibaMais > a{
-    text-decoration: none;
-    color: white;
-}
-.tratamento{
-    background-color: var(--color4);
-}
-.tratamento > h2{
-    text-align: center;
-    color: white;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.712);
-}
-
 section{
     background-color: white;
     display: block;
@@ -170,37 +128,14 @@ section > h2{
     display: block;
     text-align: center;
     font-size: 2em;
-    color: var(--color3);
+    color: var(--color4);
     width: 90vw;
     margin: 20px auto 0;
 }
 
-.servico{
-    width: 90vw;
-    margin: auto;
-    background-color: white;
-    margin: 40px auto;
-    text-align: justify;
-    padding: 10px;
-    border-radius: 12px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-    text-indent: 20px;
-}
-
-.servico > h2{
-    margin-bottom: 10px;
-    text-align: center;
-    text-indent: 0px;
-    color: var(--color3);
-}
-
-.servico > p{
-    padding: 10px;
-}
-
 /* Aqui está os Cards com nome, foto e descrição da equipe*/
 
-.card{
+.card-tratamento{
     display: block;
     width: 80vw;
     margin: 20px auto;
@@ -210,21 +145,41 @@ section > h2{
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
-.card > h3{
+.card-tratamento > h3{
+    font-size: 2em;
     padding: 10px;
     color: var(--Color1);
 }
 
-.card > img{
+.card-tratamento > img{
     width: 100%;
 }
 
-.card > p{
+.card-tratamento > p{
     text-align: justify;
     text-indent: 1em;
     padding: 10px;
 }
 
+button{
+    margin: 0 auto;
+    cursor: pointer;
+    display: block;
+    padding: 5px;
+    color: white;
+    background-color: var(--color3);
+    border: solid 1px black;
+    border-radius: 12px;
+}
+button > a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+        /* background-color: var(--Color2); */
+        border: 0px;
+        padding: 6px;  
+}
 /* Aqui está os dados de contato e localização da empresa*/
 
 .mapa{
@@ -264,11 +219,10 @@ footer{
 
 }
 footer > p{
-    font-size: 1.4em;
+    font-size: 1.5em;
     color: white;
     text-align: center;
 }
-
 .contact{
     color: white;
     display: flex;

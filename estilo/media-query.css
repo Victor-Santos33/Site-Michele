@@ -15,14 +15,14 @@ Grandes telas: acima de 1200px
 
 /* Paleta de cores */
 
-:root{
-    --Color1: #8aca9f;
-    --Color2: #99b6c7;
-    --color3: #33B4FF;
-    --color4: #1695DE;
-}
 
 @media only screen and (min-width: 768px){
+    :root{
+        --Color1: #8aca9f;
+        --Color2: #99b6c7;
+        --color3: #53c0ff;
+        --color4: #59b6ec;
+    }
     span#burguer{
         display: none;
     }
@@ -88,9 +88,12 @@ Grandes telas: acima de 1200px
         justify-content: center;
     }
     .servico{
-        height: 210px;
+        height: 224px;
         width: 300px;
         margin: 10px;
+    }
+    .servico > h2{
+        text-align: center;
     }
     .servico > hr{
         align-items: center;
@@ -118,6 +121,10 @@ Grandes telas: acima de 1200px
     .equipe > .card > p{
         display: flex;
         align-items: center;
+    }
+    .card-tratamento{
+        max-width: 300px;
+        margin: 20px;
     }
     .mapa{
         display: flex;
