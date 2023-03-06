@@ -20,8 +20,8 @@ Grandes telas: acima de 1200px
     :root{
         --Color1: #8aca9f;
         --Color2: #99b6c7;
-        --color3: #53c0ff;
-        --color4: #59b6ec;
+        --color3: #73c9fc;
+        --color4: #7ec4ec;
     }
     span#burguer{
         display: none;
