@@ -20,7 +20,7 @@ Grandes telas: acima de 1200px
     :root{
         --Color1: #8aca9f;
         --Color2: #99b6c7;
-        --color3: #73c9fc;
+        --color3: #8aca9f;
         --color4: #7ec4ec;
     }
     span#burguer{
@@ -71,16 +71,19 @@ Grandes telas: acima de 1200px
         display: block;
     }
     .sobre >p{
-        max-width: 800px;
+        max-width: 600px;
         margin: auto;
     }
     #mais > p{
-        width: 800px;
+        width: 600px;
         display: block;
     }
     #btnLeiaMais{
         display: flex;
         flex-wrap: wrap;
+    }
+    #leiamais >p{
+        max-width: 560px;
     }
     section{
         display: flex;
@@ -88,7 +91,7 @@ Grandes telas: acima de 1200px
         justify-content: center;
     }
     .servico{
-        height: 224px;
+        height: 240px;
         width: 300px;
         margin: 10px;
     }
@@ -110,17 +113,18 @@ Grandes telas: acima de 1200px
         display: block;
         text-align: center;
         font-size: 2em;
-        color: var(--color4);
+        color: var(--color1);
         width: 90%;
         margin: 20px auto 0;
     }
     .equipe > .card{
-        max-width: 300px;
+        max-width: 360px;
         margin: 20px;
     }
     .equipe > .card > p{
         display: flex;
-        align-items: center;
+        text-indent: 4px;
+        text-align: left;
     }
     .card-tratamento{
         max-width: 300px;

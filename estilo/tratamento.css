@@ -14,8 +14,8 @@
 :root{
     --Color1: #8aca9f;
     --Color2: #99b6c7;
-    --color3: #73c9fc;
-    --color4: #7ec4ec;
+    --Color3: #8aca9f;
+    --Color4: #7ec4ec;
 }
 
 body{
@@ -36,7 +36,7 @@ header div#logo, footer div#logo-footer{
 }
 
 span#burguer{
-    background-color: var(--color4);
+    background-color: var(--Color1);
     color: white;
     display: block;
     text-align: center;
@@ -46,7 +46,7 @@ span#burguer{
 
 span#burguer:hover{
     background-color: var(--Color2);
-    color: var(--color4);
+    color: var(--Color1);
 }
 
 menu{
@@ -64,11 +64,11 @@ menu > ul > li > a{
     text-align: center;
     color: white;
     background-color: var(--Color2);
-    border-bottom: 2px solid var(--color4);
+    border-bottom: 2px solid var(--Color1);
 }
 
 menu > ul > li > a:hover{
-    background-color: var(--color3);
+    background-color: var(--Color3);
 }
 
 main{
@@ -91,9 +91,8 @@ article{
 article > h2{
     text-align: center;
     font-size: 2em;
-    color: var(--color3);
+    color: var(--Color3);
     padding-bottom: 10px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.712);
 }
 
 article > p{
@@ -106,7 +105,7 @@ article > p{
 }
 .sobre > h2{
     font-size: 2em;
-    color: var(--color3);
+    color: var(--Color3);
     text-align: center;
     padding-top: 10px;
 }
@@ -128,7 +127,7 @@ section > h2{
     display: block;
     text-align: center;
     font-size: 2em;
-    color: var(--color4);
+    color: var(--Color1);
     width: 90vw;
     margin: 20px auto 0;
 }
@@ -165,10 +164,10 @@ button{
     margin: 0 auto;
     cursor: pointer;
     display: block;
-    padding: 5px;
+    padding: 6px 12px;
     color: white;
-    background-color: var(--color3);
-    border: solid 1px black;
+    background-color: var(--Color3);
+    border: none;
     border-radius: 12px;
 }
 button > a{
@@ -176,9 +175,7 @@ button > a{
     color: white;
 }
 button:hover{
-        /* background-color: var(--Color2); */
-        border: 0px;
-        padding: 6px;  
+    background-color: var(--Color2);
 }
 /* Aqui está os dados de contato e localização da empresa*/
 
@@ -215,7 +212,7 @@ button:hover{
 
 footer{
     height: 400px;
-    background-color: var(--color4);
+    background-color: var(--Color1);
 
 }
 footer > p{
@@ -235,4 +232,7 @@ footer > p{
 .contact > ul > li > a{
     font-size: 1.5em;
     color: white;
+}
+.contact > ul > li > a:hover{
+    color: green;
 }
