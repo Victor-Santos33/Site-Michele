@@ -71,7 +71,7 @@ Grandes telas: acima de 1200px
         display: block;
     }
     .sobre >p{
-        max-width: 600px;
+        max-width: 720px;
         margin: auto;
     }
     #mais > p{
@@ -93,7 +93,7 @@ Grandes telas: acima de 1200px
     .servico{
         height: 240px;
         width: 300px;
-        margin: 10px;
+        margin: 20px;
     }
     .servico > h2{
         text-align: center;
@@ -126,12 +126,16 @@ Grandes telas: acima de 1200px
         text-indent: 4px;
         text-align: left;
     }
+    .tratamento{
+        padding-bottom: 20px;
+    }
     .card-tratamento{
         max-width: 300px;
         margin: 20px;
     }
     .mapa{
         display: flex;
+        padding: 40px;
     }
     .mapa iframe{
         height: 300px;
@@ -141,7 +145,23 @@ Grandes telas: acima de 1200px
         width: 42%;
         color: white;
     }
-}
+    footer{
+        display: block;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 20px
+    }
+    footer div#logo-footer{
+        display: block;
+        text-align: center;
+    }
+    footer div#logo-footer > p{
+        text-align: center;
+        color: white;
+    }
+    .contact ul{
+        display: flex;
+    }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px){

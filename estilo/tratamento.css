@@ -96,8 +96,7 @@ article > h2{
 }
 
 article > p{
-    text-align: justify;
-    text-indent: 20px;
+    text-align: center;
 }
 
 .sobre{
@@ -170,13 +169,23 @@ button{
     border: none;
     border-radius: 12px;
 }
+.voltar{
+    background-color: var(--Color2);
+}
 button > a{
     text-decoration: none;
     color: white;
 }
-button:hover{
-    background-color: var(--Color2);
+button:hover, .voltar:hover{
+    background-color: var(--Color4);
 }
+
+.btn-agendar{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
 /* Aqui está os dados de contato e localização da empresa*/
 
 .mapa{
