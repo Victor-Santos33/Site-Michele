@@ -83,7 +83,7 @@ Grandes telas: acima de 1200px
         flex-wrap: wrap;
     }
     #leiamais >p{
-        max-width: 560px;
+        max-width: 680px;
     }
     section{
         display: flex;
@@ -91,7 +91,6 @@ Grandes telas: acima de 1200px
         justify-content: center;
     }
     .servico{
-        height: 240px;
         width: 300px;
         margin: 20px;
     }
